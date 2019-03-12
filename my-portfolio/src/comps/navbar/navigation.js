@@ -1,7 +1,8 @@
-import { Nav } from 'react-bootstrap';
+import  Nav  from 'react-bootstrap/Nav';
+import React, { Component } from 'react';
 import './navigation.css';
 
-export class Navigation extends Compoment {
+class Navigation extends Component {
     render() {
         return (
             <Nav
@@ -25,6 +26,6 @@ export class Navigation extends Compoment {
     }
 }
 
-
+export default Navigation;
 
 
