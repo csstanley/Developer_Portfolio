@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/csstanley/Developer_Portfolio/issues"
   },
-  "homepage": "https://github.com/csstanley/Developer_Portfolio#readme"
+  "homepage": "https://github.com/csstanley/Developer_Portfolio#readme",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-router-dom": "^4.3.1"
+  }
 }
