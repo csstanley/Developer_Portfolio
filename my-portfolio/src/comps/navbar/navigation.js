@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
 
 import React, { Component } from 'react';
 import './navigation.css';
@@ -21,7 +22,24 @@ class Navigation extends Component {
                     <Col><Button variant="outline-secondary"><Nav.Link variant="pills" href="/port" eventKey="link-1">Portfolio</Nav.Link></Button></Col>
                     <Col><Button variant="outline-secondary"><Nav.Link variant="pills" href="/blog" eventKey="link-2">Blog</Nav.Link></Button></Col>
                     <Col><Button variant="outline-secondary"><Nav.Link variant="pills" href="/contact" eventKey="link-3">Contact</Nav.Link></Button></Col>
+                    
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    
+                    <Col><Image src="../images/github.png" fluid /></Col>
+                    <Col><Image src="../images/linkedin.png" fluid /></Col>  
                     </Row>
+
                 </Nav>
             </Navbar>
         )
