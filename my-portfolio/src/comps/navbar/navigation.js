@@ -8,6 +8,11 @@ import Image from 'react-bootstrap/Image';
 import React, { Component } from 'react';
 import './navigation.css';
 
+var Github = require ('./github.png');
+var Linkedin = require ('./linkedin.png');
+
+
+
 class Navigation extends Component {
     render() {
         return (
@@ -35,9 +40,35 @@ class Navigation extends Component {
                     <Col></Col>
                     <Col></Col>
                     <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+                    <Col></Col>
+               
                     
-                    <Col><Image src="../images/github.png" fluid /></Col>
-                    <Col><Image src="../images/linkedin.png" fluid /></Col>  
+                    
+                    <Col><Image src={Github} className="SocialMedia" rounded /></Col>
+                    <Col><Image src={Linkedin} className="SocialMedia" rounded /></Col>  
                     </Row>
 
                 </Nav>
