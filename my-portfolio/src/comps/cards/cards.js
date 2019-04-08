@@ -1,25 +1,32 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
+var codeTutor = require('./codetutor.JPG');
 
 class Cards extends Component {
     render() {
         return (
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-    </Card.Text>
-                </Card.Body>
+            <Container>
 
-                <Card.Body>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
-                </Card.Body>
-            </Card>
+                <Card style={{ width: '30rem' }}>
+                    <Card.Img variant="top" src={codeTutor}/>
+                    <Card.Body>
+                        <Card.Title><b>codeTutor</b></Card.Title>
+                        <Card.Text className="text-left">
+                        <b>codeTutor</b> is a service that brings together both experienced web developers and aspiring web developers without ever having to leave the comfort of your home.
+                        </Card.Text>
+                    </Card.Body>
+
+                    <Card.Body>
+                        <Card.Link href="https://github.com/csstanley/codeTutor">GitHub</Card.Link>
+                        <Card.Link href="https://robertolive.github.io/codeTutor/">GitHub.io</Card.Link>
+                    </Card.Body>
+                </Card>
+
+
+            </Container>
         )
     }
 }

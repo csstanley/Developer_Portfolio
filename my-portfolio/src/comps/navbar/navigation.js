@@ -15,30 +15,30 @@ var Linkedin = require('./linkedin.png');
 class Navigation extends Component {
     render() {
         return (
-            <Navbar fixed="top">
-                    <Nav defaultActiveKey="/">
-                        <Nav.Item>
-                            <Nav.Link href="/"><Button variant="secondary"><Badge>Home</Badge></Button></Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="/port" eventKey="link-1"><Button variant="secondary"><Badge>Portfolio</Badge></Button></Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="/blog" eventKey="link-2"><Button variant="secondary"><Badge>Blog</Badge></Button></Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="/contact" eventKey="link-3"><Button variant="secondary"><Badge>Contact</Badge></Button></Nav.Link>
-                        </Nav.Item>
-                    </Nav>
+            <Navbar className="justify-content-end">
+                <Nav>
+                    <Nav.Item>
+                        <Nav.Link href="/"><Button variant="secondary"><Badge>Home</Badge></Button></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/port" eventKey="link-1"><Button variant="secondary"><Badge>Portfolio</Badge></Button></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/blog" eventKey="link-2"><Button variant="secondary"><Badge>Blog</Badge></Button></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/contact" eventKey="link-3"><Button variant="secondary"><Badge>Contact</Badge></Button></Nav.Link>
+                    </Nav.Item>
+                </Nav>
 
-                    <Nav className="justify-content-end">
-                        <Nav.Item>
-                            <Nav.Link href="https://github.com/csstanley"><Image src={Github} className="SocialMedia" /></Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link href="https://www.linkedin.com/in/christophersstanley/"><Image src={Linkedin} className="SocialMedia" /></Nav.Link>
-                        </Nav.Item>
-                    </Nav>
+                <Nav>
+                    <Nav.Item>
+                        <Nav.Link href="https://github.com/csstanley"><Image src={Github} /></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="https://www.linkedin.com/in/christophersstanley/"> <Image src={Linkedin} /></Nav.Link>
+                    </Nav.Item>
+                </Nav>
             </Navbar>
         )
     }
