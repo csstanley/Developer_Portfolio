@@ -2,16 +2,19 @@ import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import CardDeck from 'react-bootstrap/CardDeck';
+
+import './cards.css';
 
 var codeTutor = require('./codetutor.JPG');
+var groceries = require('./groceries.JPG');
 
 class Cards extends Component {
     render() {
         return (
-            <Container>
-
+            <CardDeck>
                 <Card style={{ width: '30rem' }}>
-                    <Card.Img variant="top" src={codeTutor}/>
+                    <Card.Img variant="top" src={codeTutor} className="image"/>
                     <Card.Body>
                         <Card.Title><b>codeTutor</b></Card.Title>
                         <Card.Text className="text-left">
@@ -25,8 +28,23 @@ class Cards extends Component {
                     </Card.Body>
                 </Card>
 
+                <Card style={{ width: '30rem' }}>
+                    <Card.Img variant="top" src={groceries} className="image"/>
+                    <Card.Body>
+                        <Card.Title><b>Groceries to Gourmet</b></Card.Title>
+                        <Card.Text className="text-left">
+                        <b>Groceries to Gourmet</b> allows the customer to search through various recipes to choose meals that look interesting, then the site separates the ingredients for the customer and creates a grocery list.
+                        </Card.Text>
+                    </Card.Body>
 
-            </Container>
+                    <Card.Body>
+                        <Card.Link href="https://github.com/csstanley/GroceriesToGourmet">GitHub</Card.Link>
+                        <Card.Link href="https://thawing-waters-93408.herokuapp.com/">Heroku</Card.Link>
+                    </Card.Body>
+                </Card>
+                
+
+</CardDeck>
         )
     }
 }
