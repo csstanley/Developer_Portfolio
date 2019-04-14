@@ -18,7 +18,7 @@ class Navigation extends Component {
     render() {
         return (
   
-                <Navbar className="justify-content-end">
+                <Navbar className="justify-content-end banner">
                 <div className="font-effect-neon title" align="left">Christopher Stanley</div>
                     <Nav>
                         <Nav.Item>

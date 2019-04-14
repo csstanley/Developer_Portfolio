@@ -1,0 +1,18 @@
+.contact {
+    font-family: verdana;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
+.contactTitle {
+    text-align: center;
+    font-family: verdana;
+    font-size: 50px;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}

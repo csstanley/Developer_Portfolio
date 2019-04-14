@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-// import the css file //
 import Navigation from "../../comps/navbar/navigation.js";
 import ContactForm from "../../comps/form/form.js";
+
+import './contact.css';
 
 class Contact extends Component {
     render() {
         return (
-            <Container>
-                <div><Navigation /></div>
-                <div><ContactForm /></div>
-            </Container>
+            <container>
+                <row><Navigation /></row>
+                <row><ContactForm /></row>
+            </container>
         )
     }
 
