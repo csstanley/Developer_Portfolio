@@ -12,10 +12,11 @@ import './landing.css';
 class Landing extends Component {
     render() {
         return (
-            <container>
+            <container className="landing">
 
                 <div><Navigation /></div>
 
+                
                 <Jumbotron className="description">
                     <h1>Hello, my name is Christopher.</h1>
                     <p>I love writing, traveling and programmming, and
@@ -23,6 +24,7 @@ class Landing extends Component {
                     
                     <p><Button variant="primary" className="learnmore" href="/port">Click Here to Learn More</Button></p>
                 </Jumbotron>
+                
 
             </container>
         )
