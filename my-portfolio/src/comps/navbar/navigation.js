@@ -27,9 +27,9 @@ class Navigation extends Component {
                         <Nav.Item>
                             <Nav.Link href="/port" eventKey="link-1"><Button variant="secondary"><Badge>Portfolio</Badge></Button></Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <Nav.Link href="/blog" eventKey="link-2"><Button variant="secondary"><Badge>Blog</Badge></Button></Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         <Nav.Item>
                             <Nav.Link href="/contact" eventKey="link-3"><Button variant="secondary"><Badge>Contact</Badge></Button></Nav.Link>
                         </Nav.Item>

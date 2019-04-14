@@ -1,20 +1,19 @@
-.description1 {
+.description {
+    width: 900px;
     position: fixed;
-    left: 75px;
     top: 150px;
+    bottom: 450px;
+    left: 50px;
+    right: 50px;
+    background-color: #F8F8FE;
 }
-.description2 {
-    position: fixed;
-    left: 75px;
-    top: 175px;
+
+h1{
+    font-size: 40px;
+    text-align: left;
 }
-.description3 {
-    position: fixed;
-    left: 75px;
-    top: 205px;
-}
-.description4 {
-    position: fixed;
-    left: 75px;
-    top: 235px;
+
+p {
+    font-size: 15px;
+    text-align: left;
 }
